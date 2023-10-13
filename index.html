@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <form action="" id="form">
+        <label for="fname">Nombre:</label>
+        <input type="text" name="fname">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="comments">Observaciones:</label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+        <input type="submit" id="btn-submit" value="Enviar">
+
+       
+    </form>
+
+    <input type="button" value="Borrar usuarios" id="borrarAll">
+
+    <form class="borrarUser-form">
+        <input type="text" name="borrarUser" placeholder="Usuario a borrar...">
+        <input type="submit" value="Borrar usuario" name="borrarUser" id="borrarUser">
+    </form>
+
+    <div id="datos-container"></div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
